@@ -64,7 +64,7 @@ ORDER BY
     demand_count DESC
 LIMIT 25
 
--- same query rewritten concisely
+-- same query rewritten shorter without CTEs
 
 SELECT
     skills_dim.skill_id,

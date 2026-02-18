@@ -19,6 +19,8 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10
 
+-- top paying jobs in chennai
+
 SELECT
     job_id,
     job_title_short,
@@ -35,5 +37,6 @@ ON
 WHERE
     job_title_short = 'Data Analyst'
     AND job_location like 'Chennai, %'
+    AND salary_year_avg IS NOT NULL
 ORDER BY
     salary_year_avg DESC

@@ -91,7 +91,8 @@ WITH top_skills_count AS (
     ON
         skills_job_dim.skill_id = skills_dim.skill_id
     WHERE
-        job_title_short = 'Data Analyst'
+        job_title_short = 'Data Analyst' AND
+        job_location LIKE 'Chennai, %'
     GROUP BY
         skills
     ORDER BY
@@ -101,7 +102,7 @@ WITH top_skills_count AS (
 
 SELECT
     top_skills_count.*,
-    avg(salary_year_avg) AS avg_salary
+    ROUND(avg(salary_year_avg),0) AS avg_salary
 FROM
     top_skills_count
 JOIN skills_dim ON skills_dim.skills = top_skills_count.skills

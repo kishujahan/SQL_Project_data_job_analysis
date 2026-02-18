@@ -32,6 +32,7 @@ ON
     skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY salary_year_avg DESC
 
+-- top skills required for DA roles in chennai
 
 WITH top_paying_jobs AS (
     SELECT
@@ -50,6 +51,7 @@ ON
 WHERE
     job_title_short = 'Data Analyst'
     AND job_location like 'Chennai, %'
+    AND salary_year_avg IS NOT NULL
 ORDER BY
     salary_year_avg DESC)
 SELECT
