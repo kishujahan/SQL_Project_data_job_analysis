@@ -222,7 +222,9 @@ The results show that **Python and R** command higher pay despite slightly lower
 
 ## 📂 Dataset Description
 
-The dataset includes tables:
+The dataset used for this project contains job postings from 2023. It includes information such as Job title, Salary details (average yearly salary), Required skills, Company name, Location and more.
+
+The dataset consists of the following tables:
 
 job_postings_fact
 
