@@ -27,6 +27,8 @@ skills_job_dim
 
 skills_dim
 
+company_dim
+
 
 ## 🎯 Objectives
 
