@@ -13,6 +13,8 @@ Check out the SQL queries here:
 1. [project_sql folder](/project_sql/) 
 2. [my_queries_proj file](/advanced_sql/my_queries_proj.sql)
 
+The SQL query results were then exported and used to build an Excel Dashboard that visualizes salary trends, in-demand skills, and optimal skill combinations for Data Analysts in Chennai.  
+
 ## 📂 Dataset Description
 
 The dataset used for this project contains job postings from 2023. It includes information such as Job title, Salary details (average yearly salary), Required skills, Company name, Location and more.
