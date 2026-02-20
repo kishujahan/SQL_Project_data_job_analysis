@@ -232,4 +232,8 @@ ORDER BY
 
 The results show that **Python and R** command higher pay despite slightly lower demand than SQL. This suggests that programming and statistical skills provide a salary advantage, even if they are not the most frequently requested. Additionally, tools like Tableau and Excel remain consistently relevant, indicating that data visualization and reporting skills are essential alongside technical querying abilities.
 
+## 📊 Dashboard Preview:
+
+![](SQL_proj_dashboard.png)
+
 
