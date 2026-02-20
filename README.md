@@ -13,6 +13,18 @@ Check out the SQL queries here:
 1. [project_sql folder](/project_sql/) 
 2. [my_queries_proj file](/advanced_sql/my_queries_proj.sql)
 
+## 📂 Dataset Description
+
+The dataset used for this project contains job postings from 2023. It includes information such as Job title, Salary details (average yearly salary), Required skills, Company name, Location and more.
+
+The dataset consists of the following tables:
+
+job_postings_fact
+
+skills_job_dim
+
+skills_dim
+
 
 ## 🎯 Objectives
 
@@ -220,14 +232,4 @@ ORDER BY
 
 The results show that **Python and R** command higher pay despite slightly lower demand than SQL. This suggests that programming and statistical skills provide a salary advantage, even if they are not the most frequently requested. Additionally, tools like Tableau and Excel remain consistently relevant, indicating that data visualization and reporting skills are essential alongside technical querying abilities.
 
-## 📂 Dataset Description
 
-The dataset used for this project contains job postings from 2023. It includes information such as Job title, Salary details (average yearly salary), Required skills, Company name, Location and more.
-
-The dataset consists of the following tables:
-
-job_postings_fact
-
-skills_job_dim
-
-skills_dim
