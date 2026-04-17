@@ -238,6 +238,6 @@ The results show that **Python and R** command higher pay despite slightly lower
 
 ## 📊 Dashboard Preview:
 
-![](SQL_proj_dashboard.png)
+![](SQL_Proj_Dashboard.PNG)
 
 
